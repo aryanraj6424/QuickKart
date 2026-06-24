@@ -450,7 +450,7 @@ function App() {
     element={<VendorDashboard />}
   />
 
-  <Route
+  {/* <Route
     path="products"
     element={<VendorProducts />}
   />
@@ -458,7 +458,7 @@ function App() {
   <Route
     path="orders"
     element={<VendorOrders />}
-  />
+  /> */}
 </Route>
 
 
