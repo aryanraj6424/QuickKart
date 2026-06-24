@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API =
 
-  "http://localhost:5000/api/vendor/auth";
+  "https://quickkart-sggn.onrender.com/api/vendor/auth";
 
 export const registerVendor =
   async (vendorData) => {
