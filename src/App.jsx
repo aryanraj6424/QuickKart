@@ -438,14 +438,28 @@ function App() {
       {/* Vendor Protected Routes */}
       
       <Route
-        path="/vendor"
-        element={<VendorLayout />}
-      >
-        <Route
-          path="dashboard"
-          element={<VendorDashboard />}
-        />
-      </Route>
+  path="/vendor"
+  element={
+    <VendorProtectedRoute>
+      <VendorLayout />
+    </VendorProtectedRoute>
+  }
+>
+  <Route
+    path="dashboard"
+    element={<VendorDashboard />}
+  />
+
+  <Route
+    path="products"
+    element={<VendorProducts />}
+  />
+
+  <Route
+    path="orders"
+    element={<VendorOrders />}
+  />
+</Route>
 
 
       {/* admin route  */}
