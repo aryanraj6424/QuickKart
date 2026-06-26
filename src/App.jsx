@@ -451,6 +451,11 @@ function App() {
     element={<VendorDashboard />}
   />
 
+          <Route
+    path="createproduct"
+    element={<CreateProduct />}
+  />
+
   {/* <Route
     path="products"
     element={<VendorProducts />}
@@ -506,11 +511,7 @@ function App() {
   />
 </Route>
 
-  <Route
-    path="createproduct"
-    element={<CreateProduct/>}
-  />
-</Route>
+
       
     </Routes>
   );
