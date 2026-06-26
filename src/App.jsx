@@ -286,6 +286,7 @@ import PendingApproval from "./vendor/pages/dashboard/PendingApproval";
 import VendorRegister from "./vendor/pages/auth/VendorRegister";
 import VendorDashboard from "./vendor/pages/dashboard/VendorDashboard";
 import VendorProtectedRoute from "./vendor/components/VendorProtectedRoute";
+import CreateProduct from "./vendor/pages/dashboard/CreateProduct";
 
 
 //admin section 
@@ -502,6 +503,12 @@ function App() {
   <Route
     path="vendors"
     element={<VendorManagement />}
+  />
+</Route>
+
+  <Route
+    path="vendors"
+    element={<CreateProduct/>}
   />
 </Route>
       
