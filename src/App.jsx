@@ -507,7 +507,7 @@ function App() {
 </Route>
 
   <Route
-    path="vendors"
+    path="createproduct"
     element={<CreateProduct/>}
   />
 </Route>
